@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 namespace PlayingAround.Models
 {
     public class Page
-    {
+    {//
     }
 }
