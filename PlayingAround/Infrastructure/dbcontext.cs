@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using PlayingAround.Models;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,6 @@ namespace PlayingAround.Infrastructure
         {
 
         }
-        public DbSet<Page> Pages { get; set; }
+        public DbSet<Models.Page> Pages { get; set; }
     }
 }
